@@ -1,0 +1,2 @@
+# Firebase Realtime Database uses reflection to serialize ImageRecord.
+-keep class com.fardinkamal.androidpixenc.data.ImageRecord { *; }

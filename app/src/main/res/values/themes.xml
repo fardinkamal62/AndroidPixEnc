@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.PixEnc" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/pix_primary</item>
+        <item name="colorOnPrimary">@color/pix_on_primary</item>
+        <item name="colorPrimaryContainer">@color/pix_primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/pix_on_primary_container</item>
+        <item name="colorSecondary">@color/pix_secondary</item>
+        <item name="colorOnSecondary">@color/pix_on_secondary</item>
+        <item name="colorSecondaryContainer">@color/pix_secondary_container</item>
+        <item name="colorOnSecondaryContainer">@color/pix_on_secondary_container</item>
+        <item name="colorSurface">@color/pix_surface</item>
+        <item name="colorOnSurface">@color/pix_on_surface</item>
+        <item name="colorSurfaceVariant">@color/pix_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/pix_on_surface_variant</item>
+        <item name="colorOutline">@color/pix_outline</item>
+        <item name="colorOutlineVariant">@color/pix_outline_variant</item>
+        <item name="colorError">@color/pix_error</item>
+        <item name="colorOnError">@color/pix_on_error</item>
+        <item name="colorErrorContainer">@color/pix_error_container</item>
+        <item name="colorOnErrorContainer">@color/pix_on_error_container</item>
+        <item name="colorSurfaceInverse">@color/pix_inverse_surface</item>
+        <item name="colorOnSurfaceInverse">@color/pix_inverse_on_surface</item>
+        <item name="android:colorBackground">@color/pix_background</item>
+        <item name="colorOnBackground">@color/pix_on_background</item>
+        <item name="android:windowBackground">@color/pix_background</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="materialButtonStyle">@style/Widget.PixEnc.Button</item>
+        <item name="textInputStyle">@style/Widget.PixEnc.TextInputLayout</item>
+        <item name="materialCardViewStyle">@style/Widget.PixEnc.Card</item>
+    </style>
+
+    <style name="Theme.PixEnc" parent="Base.Theme.PixEnc" />
+
+    <style name="Theme.PixEnc.Splash" parent="Theme.PixEnc">
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowBackground">@drawable/bg_splash_gradient</item>
+    </style>
+</resources>

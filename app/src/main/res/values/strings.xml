@@ -1,0 +1,134 @@
+<resources>
+    <string name="app_name">PixEnc</string>
+    <string name="app_tagline">Hide in plain sight.</string>
+
+    <string name="firebase_missing_title">Firebase setup required</string>
+    <string name="firebase_missing_message">Add your project\'s app/google-services.json file, then rebuild PixEnc. See the README for the Firebase setup steps.</string>
+    <string name="firebase_missing_positive">Exit</string>
+
+    <string name="login_title">Welcome back</string>
+    <string name="login_subtitle">Sign in to open your encrypted gallery.</string>
+    <string name="register_title">Create your account</string>
+    <string name="register_subtitle">Your images stay scrambled until you unlock them.</string>
+
+    <string name="email_label">Email</string>
+    <string name="password_label">Password</string>
+    <string name="confirm_password_label">Confirm password</string>
+    <string name="password_helper">At least 6 characters</string>
+    <string name="confirm_password_helper">Re-enter the same password</string>
+
+    <string name="login_action">Sign in</string>
+    <string name="login_in_progress">Signing in…</string>
+    <string name="register_action">Create account</string>
+    <string name="register_in_progress">Creating account…</string>
+    <string name="login_prompt">Already have an account?</string>
+    <string name="login_link">Sign in</string>
+    <string name="register_prompt">New to PixEnc?</string>
+    <string name="register_link">Create an account</string>
+
+    <string name="error_email_required">Enter your email address.</string>
+    <string name="error_email_invalid">Enter a valid email address.</string>
+    <string name="error_password_required">Enter a password.</string>
+    <string name="error_password_short">Use at least 6 characters.</string>
+    <string name="error_confirm_required">Confirm your password.</string>
+    <string name="error_password_mismatch">The passwords do not match.</string>
+    <string name="error_title_required">Give this record a title.</string>
+    <string name="error_image_required">Choose an image first.</string>
+
+    <string name="auth_error_invalid_credentials">That email and password combination is not correct.</string>
+    <string name="auth_error_email_in_use">An account already exists for this email.</string>
+    <string name="auth_error_weak_password">Choose a stronger password with at least 6 characters.</string>
+    <string name="auth_error_network">Network error. Check your connection and try again.</string>
+    <string name="auth_error_configuration_not_found">Firebase Authentication is not configured for this project. Open Firebase Console → Authentication → Sign-in method and enable Email/Password.</string>
+    <string name="auth_error_provider_disabled">Email/Password sign-in is disabled for this Firebase project. Enable it in Firebase Console → Authentication → Sign-in method.</string>
+    <string name="auth_error_invalid_api_key">This app\'s Firebase API key is invalid or expired. Download a fresh google-services.json from the Firebase console and rebuild.</string>
+    <string name="auth_error_api_unavailable">Firebase Authentication is temporarily unavailable. Check your connection and try again.</string>
+    <string name="auth_error_generic">Could not complete sign-in. Try again.</string>
+
+    <string name="home_title">PixEnc</string>
+    <string name="home_empty_title">No encrypted images yet</string>
+    <string name="home_empty_body">Pick a photo, add a password, and PixEnc will scramble its pixels into a shareable PNG.</string>
+    <string name="home_empty_action">Encrypt your first image</string>
+    <string name="home_add">Encrypt image</string>
+    <string name="home_logout">Log out</string>
+    <string name="logout_confirm_title">Log out?</string>
+    <string name="logout_confirm_message">You will need to sign in again to see your records.</string>
+    <string name="home_load_error">Could not load your records. Check your connection.</string>
+    <string name="home_retry">Try again</string>
+    <string name="record_no_note">No note</string>
+    <string name="record_encrypted">Encrypted</string>
+    <string name="record_thumbnail_desc">Encrypted preview of %1$s</string>
+    <string name="generated_date">Created %1$s</string>
+
+    <string name="encrypt_title">Encrypt image</string>
+    <string name="encrypt_heading">Turn a photo into noise</string>
+    <string name="encrypt_subtitle">Choose an image, protect it with a password, and save the scrambled PNG to your collection.</string>
+    <string name="choose_image">Choose from gallery</string>
+    <string name="take_photo">Take photo</string>
+    <string name="gallery_short">Gallery</string>
+    <string name="camera_short">Camera</string>
+    <string name="image_hint">No image selected yet</string>
+    <string name="image_selected">Ready to encrypt</string>
+    <string name="image_replace">Choose another image</string>
+    <string name="title_label">Title</string>
+    <string name="title_helper">Give this record a name</string>
+    <string name="note_label">Note (optional)</string>
+    <string name="encrypt_password_helper">This password cannot be recovered. Keep it safe.</string>
+    <string name="encrypt_action">Encrypt &amp; save</string>
+    <string name="encrypt_progress">Scrambling pixels…</string>
+    <string name="encrypt_success">Image encrypted and saved.</string>
+    <string name="encrypt_error">Could not encrypt the image. Try a smaller photo.</string>
+    <string name="encrypt_save_error">Encryption finished, but the record could not be saved. Check your connection.</string>
+    <string name="image_resize_notice">Large images are resized to %1$d px for reliable sharing.</string>
+    <string name="image_load_error">Could not open that image.</string>
+    <string name="camera_unavailable">No camera app is available.</string>
+    <string name="camera_error">Could not capture a photo.</string>
+    <string name="selected_image_desc">Selected image preview</string>
+    <string name="encrypted_image_desc">Encrypted image preview</string>
+
+    <string name="detail_title">Record details</string>
+    <string name="detail_encrypted_badge">Encrypted</string>
+    <string name="detail_note_label">Note</string>
+    <string name="detail_created_label">Created</string>
+    <string name="detail_dimensions_label">Dimensions</string>
+    <string name="detail_dimensions_value">%1$d × %2$d px</string>
+    <string name="detail_decrypt">Decrypt image</string>
+    <string name="detail_hide">Hide restored image</string>
+    <string name="detail_restored">Restored image</string>
+    <string name="detail_no_note">No note added.</string>
+    <string name="detail_wrong_password_hint">A different password produces scrambled pixels. Make sure it matches the one used when saving.</string>
+    <string name="password_dialog_title">Enter password</string>
+    <string name="password_dialog_message">Use the password that was set when this image was encrypted.</string>
+    <string name="password_dialog_positive">Decrypt</string>
+    <string name="password_dialog_negative">Cancel</string>
+    <string name="password_dialog_error">Enter a password.</string>
+    <string name="decrypt_progress">Restoring pixels…</string>
+    <string name="loading_record">Loading record…</string>
+    <string name="decrypt_error">Could not decrypt this image. The record may be damaged.</string>
+    <string name="delete_title">Delete record?</string>
+    <string name="delete_message">This removes the encrypted image from your account. This cannot be undone.</string>
+    <string name="delete_action">Delete</string>
+    <string name="delete_success">Record deleted.</string>
+    <string name="delete_error">Could not delete the record.</string>
+    <string name="delete_progress">Deleting…</string>
+    <string name="load_record_error">Could not load this record.</string>
+    <string name="menu_edit">Edit</string>
+    <string name="menu_delete">Delete</string>
+
+    <string name="edit_title">Edit details</string>
+    <string name="edit_heading">Edit record</string>
+    <string name="edit_subtitle">Update the title and note. The encrypted image and password stay the same.</string>
+    <string name="save_action">Save changes</string>
+    <string name="save_progress">Saving…</string>
+    <string name="save_success">Record updated.</string>
+    <string name="save_error">Could not update the record.</string>
+
+    <string name="generic_error">Something went wrong. Try again.</string>
+    <string name="network_error">Network error. Check your connection.</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_ok">OK</string>
+    <string name="action_exit">Exit</string>
+    <string name="back_desc">Back</string>
+    <string name="logout_desc">Log out</string>
+    <string name="add_desc">Encrypt a new image</string>
+</resources>

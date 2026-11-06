@@ -1,0 +1,44 @@
+# Gradle
+.gradle/
+build/
+.kotlin/
+gradle-app.setting
+.gradletasknamecache
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+captures/
+.externalNativeBuild/
+.cxx/
+*.hprof
+
+# Local SDK path (machine-specific)
+local.properties
+
+# Firebase config and signing secrets
+google-services.json
+*.jks
+*.keystore
+keystore.properties
+signing.properties
+secrets.properties
+
+# Build outputs copied outside build/
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Logs and crash dumps
+*.log
+firebase-debug.log*
+hs_err_pid*
+replay_pid*
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.fleet/

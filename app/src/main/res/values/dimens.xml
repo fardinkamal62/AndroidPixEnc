@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="space_4">4dp</dimen>
+    <dimen name="space_8">8dp</dimen>
+    <dimen name="space_12">12dp</dimen>
+    <dimen name="space_16">16dp</dimen>
+    <dimen name="space_20">20dp</dimen>
+    <dimen name="space_24">24dp</dimen>
+    <dimen name="space_32">32dp</dimen>
+    <dimen name="space_40">40dp</dimen>
+
+    <dimen name="screen_padding">24dp</dimen>
+    <dimen name="toolbar_padding_horizontal">12dp</dimen>
+    <dimen name="card_corner">24dp</dimen>
+    <dimen name="thumb_corner">18dp</dimen>
+    <dimen name="input_corner">16dp</dimen>
+    <dimen name="button_corner">16dp</dimen>
+    <dimen name="button_height">52dp</dimen>
+
+    <dimen name="logo_size">76dp</dimen>
+    <dimen name="logo_icon_size">38dp</dimen>
+    <dimen name="thumb_size">78dp</dimen>
+    <dimen name="icon_size">24dp</dimen>
+    <dimen name="empty_icon_size">72dp</dimen>
+    <dimen name="preview_height">240dp</dimen>
+    <dimen name="detail_image_height">300dp</dimen>
+    <dimen name="touch_target">48dp</dimen>
+</resources>

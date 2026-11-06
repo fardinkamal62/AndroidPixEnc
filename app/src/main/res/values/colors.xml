@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="pix_primary">#4F46E5</color>
+    <color name="pix_on_primary">#FFFFFF</color>
+    <color name="pix_primary_container">#E0E7FF</color>
+    <color name="pix_on_primary_container">#1E1B4B</color>
+    <color name="pix_secondary">#0D9488</color>
+    <color name="pix_on_secondary">#FFFFFF</color>
+    <color name="pix_secondary_container">#CCFBF1</color>
+    <color name="pix_on_secondary_container">#042F2E</color>
+    <color name="pix_background">#F8FAFC</color>
+    <color name="pix_on_background">#0F172A</color>
+    <color name="pix_surface">#FFFFFF</color>
+    <color name="pix_on_surface">#0F172A</color>
+    <color name="pix_surface_variant">#E2E8F0</color>
+    <color name="pix_on_surface_variant">#475569</color>
+    <color name="pix_outline">#94A3B8</color>
+    <color name="pix_outline_variant">#CBD5E1</color>
+    <color name="pix_error">#DC2626</color>
+    <color name="pix_on_error">#FFFFFF</color>
+    <color name="pix_error_container">#FEE2E2</color>
+    <color name="pix_on_error_container">#7F1D1D</color>
+    <color name="pix_inverse_surface">#1E293B</color>
+    <color name="pix_inverse_on_surface">#F8FAFC</color>
+    <color name="pix_scrim">#CC0B1120</color>
+    <color name="pix_white_12">#1FFFFFFF</color>
+    <color name="pix_white_20">#33FFFFFF</color>
+    <color name="pix_white">#FFFFFF</color>
+    <color name="pix_transparent">#00000000</color>
+</resources>
